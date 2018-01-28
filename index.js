@@ -25,9 +25,6 @@ function sumChars(str) {
 
 class UserAvatar extends React.Component {
     render() {
-
-        if (!this.props.name) throw new Error('UserAvatar requires a name');
-
         const abbr = initials(this.props.name);
         // size = addPx(size);
 
@@ -96,6 +93,7 @@ UserAvatar.propTypes = {
 };
 
 UserAvatar.defaultProps = {
+    name: 'John Doe',
     borderRadius: '100%',
     colors: defaultColors,
     textSizeRatio: 3

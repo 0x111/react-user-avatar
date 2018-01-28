@@ -12,13 +12,12 @@ document.body.innerHTML = `
       margin: 5px;
     }
   </style>
-  <div id="react-container"
-       style="margin: 200px auto;">
-  </div>
+  <div id="react-container"></div>
 `
 
 ReactDOM.render(
   <div>
+      <UserAvatar size={48} name="" />
     <UserAvatar size={48} name="Will Binns-Smith" />
     <UserAvatar size={48} name="Will Binns-Smith" src="https://pbs.twimg.com/profile_images/429442426038538240/6Ac9kykG_400x400.jpeg" />
     <UserAvatar size={96} name="John Doe" textSizeRatio={2} />
