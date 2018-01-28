@@ -56,9 +56,6 @@ var UserAvatar = function (_React$Component) {
     _createClass(UserAvatar, [{
         key: 'render',
         value: function render() {
-
-            if (!this.props.name) throw new Error('UserAvatar requires a name');
-
             var abbr = (0, _initials2.default)(this.props.name);
             // size = addPx(size);
 
@@ -133,6 +130,7 @@ UserAvatar.propTypes = {
 };
 
 UserAvatar.defaultProps = {
+    name: 'John Doe',
     borderRadius: '100%',
     colors: defaultColors,
     textSizeRatio: 3
