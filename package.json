@@ -14,7 +14,7 @@
     "avatar",
     "initials"
   ],
-  "author": "Will Binns-Smith <wbinnssmith@gmail.com>",
+  "author": "Richard Szolár <npm@rs-labs.io>",
   "license": "MIT",
   "repository": "github:wbinnssmith/react-user-avatar",
   "devDependencies": {
